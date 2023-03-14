@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class GetSingleUserTest {
 
     @Test
-    @DisplayName("GET /singleUser")
+    @DisplayName("GET")
     public void successGetSingleUserAnotherExample() throws IOException, InterruptedException, URISyntaxException {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(new URI("https://reqres.in/api/unknown/2"))
